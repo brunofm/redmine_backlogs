@@ -6,3 +6,4 @@ t = RbTask.find(:first, :conditions => ['tracker_id = ? and fixed_version_id = ?
 b = t.burndown
 
 pp b
+
